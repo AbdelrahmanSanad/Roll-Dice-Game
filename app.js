@@ -37,7 +37,7 @@ function getTheRoll() {
   do {
     myRoll = parseInt(Math.random() * 10);
   } while (myRoll > 6 || myRoll === 0);
-  img.setAttribute("src", "dice-" + myRoll + ".png");
+  img.setAttribute("src", "assest/dice-" + myRoll + ".png");
 
   if (player1.classList.contains("active")) {
     if (player1Score < 50) {
